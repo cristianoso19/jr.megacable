@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Skilline Landing Page</title>
+	<title>Megacable Landing Page</title>
 	<!-- Tailwind -->
 	<link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
 	<!-- Alpine -->
@@ -23,7 +23,7 @@
         <div class="flex flex-col max-w-screen-xl px-8 mx-auto md:items-center md:justify-between md:flex-row">
             <div class="flex flex-row items-center justify-between py-6">
                 <div class="relative md:mt-8">
-                    <a href="#" class="text-lg relative z-50 font-bold tracking-widest text-gray-900 rounded-lg focus:outline-none focus:shadow-outline">Skilline</a>
+                    <a href="#" class="text-lg relative z-50 font-bold tracking-widest text-gray-900 rounded-lg focus:outline-none focus:shadow-outline">Megacable</a>
                     <svg class="h-11 z-40 absolute -top-2 -left-3" viewBox="0 0 79 79" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M35.2574 2.24264C37.6005 -0.100501 41.3995 -0.100505 43.7426 2.24264L76.7574 35.2574C79.1005 37.6005 79.1005 41.3995 76.7574 43.7426L43.7426 76.7574C41.3995 79.1005 37.6005 79.1005 35.2574 76.7574L2.24264 43.7426C-0.100501 41.3995 -0.100505 37.6005 2.24264 35.2574L35.2574 2.24264Z" fill="#65DAFF"/>
                     </svg>
@@ -36,12 +36,11 @@
                 </button>
             </div>
             <nav :class="{ 'transform md:transform-none': !open, 'h-full': open }" class="h-0 md:h-auto flex flex-col flex-grow md:items-center pb-4 md:pb-0 md:flex md:justify-end md:flex-row origin-top duration-300 scale-y-0">
-                <a class="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline" href="#">Home</a>
-                <a class="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline" href="#">Careers</a>
-                <a class="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline" href="#">Blog</a>
-                <a class="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline" href="#">About Us</a>
-                <a class="px-10 py-3 mt-2 text-sm text-center bg-white text-gray-800 rounded-full md:mt-8 md:ml-4" href="#">Login</a>
-                <a class="px-10 py-3 mt-2 text-sm text-center bg-yellow-500 text-white rounded-full md:mt-8 md:ml-4" href="#">Sign Up</a>
+                <a class="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline" href="#planes">Planes</a>
+                <a class="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline" href="#servicios">Servicios</a>
+                <a class="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline" href="#contacto">Contáctenos</a>
+                <a class="px-4 py-2 mt-2 text-sm bg-transparent rounded-lg md:mt-8 md:ml-4 hover:text-gray-900 focus:outline-none focus:shadow-outline" href="#terminos">Términos</a>
+                <a class="px-10 py-3 mt-2 text-sm text-center bg-yellow-500 text-white rounded-full md:mt-8 md:ml-4" href="#siguenos">Síguenos</a>
             </nav>
         </div>
     </div>
@@ -50,12 +49,12 @@
 			<!--Left Col-->
 			<div class="flex flex-col w-full lg:w-6/12 justify-center lg:pt-24 items-start text-center lg:text-left mb-5 md:mb-0">
 				<h1 data-aos="fade-right" data-aos-once="true" class="my-4 text-5xl font-bold leading-tight text-darken">
-					<span class="text-yellow-500">Studying</span> Online is now much easier
+					Conéctate con <span class="text-yellow-500">Megacable</span>
 				</h1>
-				<p data-aos="fade-down" data-aos-once="true" data-aos-delay="300" class="leading-normal text-2xl mb-8">Skilline is an interesting platform that will teach you in more an interactive way</p>
+				<p data-aos="fade-down" data-aos-once="true" data-aos-delay="300" class="leading-normal text-2xl mb-8">Megacable te brinda internet de alta velocidad y entretenimiento para tu hogar.</p>
 				<div data-aos="fade-up" data-aos-once="true" data-aos-delay="700" class="w-full md:flex items-center justify-center lg:justify-start md:space-x-5">
 					<button class="lg:mx-0 bg-yellow-500 text-white text-xl font-bold rounded-full py-4 px-9 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
-						Join for free
+						Contrata ya
 					</button>
 					<div class="flex items-center justify-center space-x-3 mt-5 md:mt-0 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out">
 						<button class="bg-white w-14 h-14 rounded-full flex items-center justify-center">
@@ -63,7 +62,7 @@
 								<path d="M22.5751 12.8097C23.2212 13.1983 23.2212 14.135 22.5751 14.5236L1.51538 27.1891C0.848878 27.5899 5.91205e-07 27.1099 6.25202e-07 26.3321L1.73245e-06 1.00123C1.76645e-06 0.223477 0.848877 -0.256572 1.51538 0.14427L22.5751 12.8097Z" fill="#23BDEE"/>
 							</svg>
 						</button>
-						<span class="cursor-pointer">Watch how it works</span>
+						<span class="cursor-pointer">Conoce más</span>
 					</div>
 				</div>
 			</div>
@@ -115,7 +114,7 @@
 		<!-- All-In-One Cloud Software. -->
 		<div data-aos="flip-up" class="max-w-xl mx-auto text-center mt-24">
 			<h1 class="font-bold text-darken my-3 text-2xl">All-In-One <span class="text-yellow-500">Cloud Software.</span></h1>
-			<p class="leading-relaxed text-gray-500">Skilline is one powerful online software suite that combines all the tools needed to run a successful school or office.</p>
+			<p class="leading-relaxed text-gray-500">Megacable is one powerful online software suite that combines all the tools needed to run a successful school or office.</p>
 		</div>
 		<!-- card -->
 		<div class="grid md:grid-cols-3 gap-14 md:gap-5 mt-20">
@@ -155,15 +154,15 @@
 					</svg>
 				</div>
 				<h1 class="font-medium text-xl mb-3 lg:px-14 text-darken lg:h-14 pt-3">Customer Tracking</h1>
-				<p class="px-4 text-gray-500">Automate and track emails to individuals or groups. Skilline’s built-in system helps organize your organization </p>
+				<p class="px-4 text-gray-500">Automate and track emails to individuals or groups. Megacable’s built-in system helps organize your organization </p>
 			</div>
 		</div>
 
 		<!-- lorem -->
 		<div class="mt-28">
 			<div data-aos="flip-down" class="text-center max-w-screen-md mx-auto">
-				<h1 class="text-3xl font-bold mb-4">What is<span class="text-yellow-500">Skilline?</span></h1>
-				<p class="text-gray-500">Skilline is a platform that allows educators to create online classes whereby they can store the course materials online; manage assignments, quizzes and exams; monitor due dates; grade results and provide students with feedback all in one place.</p>
+				<h1 class="text-3xl font-bold mb-4">What is<span class="text-yellow-500">Megacable?</span></h1>
+				<p class="text-gray-500">Megacable is a platform that allows educators to create online classes whereby they can store the course materials online; manage assignments, quizzes and exams; monitor due dates; grade results and provide students with feedback all in one place.</p>
 			</div>
 			<div data-aos="fade-up" class="flex flex-col md:flex-row justify-center space-y-5 md:space-y-0 md:space-x-6 lg:space-x-10 mt-7">
 				<div class="relative md:w-5/12">
@@ -190,8 +189,8 @@
 		<div class="sm:flex items-center sm:space-x-8 mt-36">
 			<div data-aos="fade-right" class="sm:w-1/2 relative">
 				<div class="bg-yellow-500 rounded-full absolute w-12 h-12 z-0 -left-4 -top-3 animate-pulse"></div>
-				<h1 class="font-semibold text-2xl relative z-50 text-darken lg:pr-10">Everything you can do in a physical classroom, <span class="text-yellow-500">you can do with Skilline</span></h1>
-				<p class="py-5 lg:pr-32">Skilline’s school management software helps traditional and online schools manage scheduling, attendance, payments and virtual classrooms all in one secure cloud-based system.</p>
+				<h1 class="font-semibold text-2xl relative z-50 text-darken lg:pr-10">Everything you can do in a physical classroom, <span class="text-yellow-500">you can do with Megacable</span></h1>
+				<p class="py-5 lg:pr-32">Megacable’s school management software helps traditional and online schools manage scheduling, attendance, payments and virtual classrooms all in one secure cloud-based system.</p>
 				<a href="" class="underline">Learn More</a>
 			</div>
 			<div data-aos="fade-left" class="sm:w-1/2 relative mt-10 sm:mt-0">
@@ -313,8 +312,8 @@
 					<h1 class="text-gray-400 tracking-widest text-sm">TESTIMONIAL</h1>
 				</div>
 				<h1 class="font-semibold text-darken text-2xl lg:pr-40">What They Say?</h1>
-				<p class="text-gray-500 my-5 lg:pr-36">Skilline has got more than 100k positive ratings from our users around the world.</p>
-				<p class="text-gray-500 my-5 lg:pr-36">Some of the students and teachers were greatly helped by the Skilline.</p>
+				<p class="text-gray-500 my-5 lg:pr-36">Megacable has got more than 100k positive ratings from our users around the world.</p>
+				<p class="text-gray-500 my-5 lg:pr-36">Some of the students and teachers were greatly helped by the Megacable.</p>
 				<p class="text-gray-500 my-5 lg:pr-36">Are you too? Please give your assessment</p>
 				<button class="flex items-center space-x-3 pl-3 border-b border-l border-t border-yellow-500 text-yellow-500 font-medium my-4 focus:outline-none transform transition hover:scale-110 duration-300 ease-in-out rounded-full">
 					<span>Write your assessment</span>
@@ -333,7 +332,7 @@
 		<!-- Latest News and Resources -->
 		<div data-aos="zoom-in" class="mt-16 text-center">
 			<h1 class="text-darken text-2xl font-semibold">Latest News and Resources</h1>
-			<p class="text-gray-500 my-5">See the developments that have occurred to Skillines in the world</p>
+			<p class="text-gray-500 my-5">See the developments that have occurred to Megacable in the world</p>
 		</div>
 		<div data-aos="zoom-in-up" class="my-14 flex flex-col lg:flex-row lg:space-x-20">
 			<div class="lg:w-6/12">
@@ -384,30 +383,60 @@
 		</div>
 		
 	</div>
+ 
+        <section id="planes" class="mt-10 text-center">
+                <h2 class="text-2xl font-bold mb-4">Planes</h2>
+                <ul class="list-disc list-inside inline-block text-left">
+                        <li>150mbps por 20USD</li>
+                        <li>200mbps por 23.50USD</li>
+                        <li>300mbps por 28.50USD</li>
+                        <li>400mbps por 40USD</li>
+                </ul>
+        </section>
+        <section id="contacto" class="mt-10 text-center">
+                <h2 class="text-2xl font-bold mb-4">Contáctenos</h2>
+                <p>Dirección: Shell Mera</p>
+                <p>Teléfono: 099 233 1763</p>
+        </section>
+        <section id="terminos" class="mt-10 text-center">
+                <h2 class="text-2xl font-bold mb-4">Términos</h2>
+                <p>Aplican términos y condiciones.</p>
+        </section>
+        <section id="servicios" class="mt-10 text-center">
+                <h2 class="text-2xl font-bold mb-4">Servicios</h2>
+                <ul class="list-disc list-inside inline-block text-left">
+                        <li>Internet: <a href="https://www.speedtest.net/" class="text-blue-500 underline">probar velocidad</a></li>
+                        <li>Tv cable 59 canales</li>
+                </ul>
+        </section>
+        <section id="siguenos" class="mt-10 text-center">
+                <h2 class="text-2xl font-bold mb-4">Síguenos en nuestras redes sociales</h2>
+                <p><a href="https://www.facebook.com/megabarrotvcable" class="text-blue-500 underline">Facebook</a></p>
+        </section>
 	<!-- .container -->
 
 	<footer class="mt-32" style="background-color: rgba(37, 38, 65, 1);">
 		<div class="max-w-lg mx-auto">
 			<div class="flex py-12 justify-center text-white items-center px-20 sm:px-36">
 				<div class="relative">
-					<h1 class="font-bold text-xl pr-5 relative z-50">Skilline</h1>
+					<h1 class="font-bold text-xl pr-5 relative z-50">Megacable</h1>
 					<svg class="w-11 h-11 absolute -top-2 -left-3 z-40" viewBox="0 0 79 79" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<path d="M35.9645 2.94975C37.9171 0.997129 41.0829 0.997127 43.0355 2.94975L76.0502 35.9645C78.0029 37.9171 78.0029 41.0829 76.0503 43.0355L43.0355 76.0502C41.0829 78.0029 37.9171 78.0029 35.9645 76.0503L2.94975 43.0355C0.997129 41.0829 0.997127 37.9171 2.94975 35.9645L35.9645 2.94975Z" stroke="#26C1F2" stroke-width="2"/>
 					</svg>
 				</div>
-				<span class="border-l border-gray-500 text-sm pl-5 py-2 font-semibold">Virtual Class for Zoom</span>
+				<span class="border-l border-gray-500 text-sm pl-5 py-2 font-semibold">Conectividad y entretenimiento</span>
 			</div>
 			<div class="text-center pb-16 pt-5">
-				<label class="text-gray-300 font-semibold">Subscribe to get our Newsletter</label>
+				<label class="text-gray-300 font-semibold">Suscríbete para recibir noticias</label>
 				<div class="px-5 sm:px-0 flex flex-col sm:flex-row sm:space-x-3 space-y-3 sm:space-y-0 justify-center mt-3">
 					<input type="email" placeholder="Your Email" class="rounded-full py-2 pl-5 bg-transparent border border-gray-400">
-					<button type="submit" class="text-white w-40 sm:w-auto mx-auto sm:mx-0 font-semibold px-5 py-2 rounded-full" style="background: linear-gradient(105.5deg, #545AE7 19.57%, #393FCF 78.85%);">Subscribe</button>
+					<button type="submit" class="text-white w-40 sm:w-auto mx-auto sm:mx-0 font-semibold px-5 py-2 rounded-full" style="background: linear-gradient(105.5deg, #545AE7 19.57%, #393FCF 78.85%);">Suscribir</button>
 				</div>
 			</div>
 			<div class="flex items-center text-gray-400 text-sm justify-center">
-				<a href="" class="pr-3">Careers</a>
-				<a href="" class="border-l border-gray-400 px-3">Privacy</a>
-				<a href="" class="border-l border-gray-400 pl-3">Terms & Conditions</a>
+				<a href="#planes" class="pr-3">Planes</a>
+				<a href="#servicios" class="border-l border-gray-400 px-3">Servicios</a>
+				<a href="#terminos" class="border-l border-gray-400 pl-3">Términos</a>
 			</div>
 			<div class="text-center text-white">
 				<p class="my-3 text-gray-400 text-sm">&copy; 2021 Class Technologies Inc. </p>
